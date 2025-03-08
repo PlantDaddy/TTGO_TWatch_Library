@@ -305,6 +305,8 @@ e.g. "stm32f7xx.h" or "stm32f4xx.h"*/
 #define LV_GC_INCLUDE "gc.h"                           /*Include Garbage Collector related things*/
 #endif /*LV_ENABLE_GC*/
 
+/* Use TFT ESPI https://github.com/lvgl/lvgl/issues/5620 */
+#define LV_USE_TFT_ESPI 1
 /*=====================
  *  COMPILER SETTINGS
  *====================*/
