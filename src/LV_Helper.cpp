@@ -10,6 +10,10 @@
 #include "LilyGoLib.h"
 #include <lvgl.h>
 
+#if LV_USE_TFT_ESPI
+#include <TFT_eSPI.h>
+#endif
+
 static lv_disp_drv_t disp_drv;
 static lv_indev_drv_t  indev_drv;
 static lv_disp_draw_buf_t draw_buf;
